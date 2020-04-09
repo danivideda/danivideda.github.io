@@ -1,0 +1,13 @@
+:root {
+  --grey-color: #333;
+  --light-color: #f4f4f4;
+  --default-font: monospace;
+}
+
+#box {
+  margin-top: 50px;
+  height: 90vh;
+  background-color: var(--grey-color);
+  color: var(--light-color);
+  
+}
