@@ -1,0 +1,12 @@
+h1 {
+  color: #000;
+}
+
+#box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
