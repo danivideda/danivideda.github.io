@@ -1,9 +1,66 @@
-.landing-page {
+@keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes disappear {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+#landing-page {
+  position: relative;
   height: 100vh;
+  padding-bottom: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-.landing-page p {
-  color: #9c9c9c;
+#landing-page #desc-1, #landing-page #desc-2 {
+  visibility: hidden;
+}
+#landing-page #circle-1 {
+  margin-top: 10px;
+  visibility: hidden;
+  width: 15px;
+  height: 15px;
+  border: 1px #ffffff solid;
+  border-radius: 50%;
+  background: linear-gradient(218.02deg, #000000 -77.62%, #FFFFFF 100%);
+  transition: all ease-in-out 0.7s;
+}
+#landing-page #circle-1:hover {
+  transform: rotateZ(-540deg) scale(2, 2);
+}
+
+#main-page {
+  height: 100vh;
+  padding-bottom: 20vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#main-page #heading {
+  transform: translateY(100%);
+  margin: 0;
+  padding: 0;
+  transition: all ease-in-out 0.7s;
+}
+#main-page #under-construction {
+  visibility: hidden;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+#main-page #under-construction p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
