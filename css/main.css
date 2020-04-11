@@ -1,12 +1,9 @@
-h1 {
-  color: #000;
-}
-
-#box {
+.landing-page {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+}
+.landing-page p {
+  color: #9c9c9c;
 }
 
 /*# sourceMappingURL=main.css.map */
